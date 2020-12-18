@@ -9,7 +9,7 @@ For WBStack production [deployment manager](https://cloud.google.com/deployment-
 The equivalent gcloud command is:
 
 ```sh
-gcloud compute addresses create main-web-static-ip-us-east1 --project=wbstack --region=us-east1-b
+gcloud compute addresses create main-web-static-ip-us-east1 --project=wbstack --region=us-east1
 ```
 
 This will create a known public static IP address, that will not disappear unless deliberately deleted.
